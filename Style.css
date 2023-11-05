@@ -1,0 +1,108 @@
+nav.container {
+    overflow: hidden;
+    
+}
+
+div.profile {
+    float:left;
+    margin: 0 30px;
+    padding: 10px;
+    border: 1px solid white;
+    text-decoration: none;
+    
+    
+    
+}
+div.ikon {
+    float: left;
+    margin: 0 30px;
+    padding: 10px;
+    border: 1px solid white;
+    
+}
+div.video {
+    float:left;
+    margin: 0 30px;
+    padding: 10px;
+    border: 1px solid white;
+    
+}
+div.login {
+    float:left;
+    margin: 0 30px;
+    padding: 10px;
+    border: 1px solid white;
+    
+}
+.bar {
+    width: 100%;
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: purple;
+}
+a {
+    text-decoration: none;
+}
+
+.bg {
+    background-repeat: no-repeat;
+    width: 1500px;
+    height: 700px;
+    background-size: cover;
+    
+    background-image: linear-gradient(
+    to right, #fff, #fff 10%, transparent
+    ), url("https://th.bing.com/th/id/OIP.pjRWBPKbWsDEzK6iRSsenAHaEH?pid=ImgDet&rs=1");
+}   
+/*
+.name {
+    font-size: 35px;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+}
+*/
+
+            /* profile 부분 스타일 */
+.computer {
+    position: absolute;
+    left: 350px;
+    top: 100px;
+}
+
+.imtext {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    z-index: 1;
+    color: white;
+    font-size: 18px;
+    width: 90px;
+    font-weight: bold;
+}
+
+.phone {
+    margin-left: 300px;
+    position: absolute;
+    left: 400px;
+    top: 100px;
+}
+
+.deco {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    z-index: 1;
+    color: black;
+    font-size: 15px;
+    width: 90px;
+    font-weight: bold;
+}
+
+.letter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 2rem;
+}
